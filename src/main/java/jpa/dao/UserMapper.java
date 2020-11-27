@@ -17,4 +17,7 @@ public interface UserMapper extends Mapper<User>{
     public static void main(String[] args) {
         System.out.println("dasdas");
     }
+    public static void main(String[] args) {
+        System.out.println("dasd");
+    }
 }
