@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot?serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+      naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
+mybatis:
+  type-aliases-package: jpa.pojo
+
+
