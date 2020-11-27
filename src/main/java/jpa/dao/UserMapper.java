@@ -14,5 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface UserMapper extends Mapper<User>{
-
+    public static void main(String[] args) {
+        System.out.println("dasd");
+    }
 }
